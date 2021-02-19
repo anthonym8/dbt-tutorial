@@ -9,4 +9,5 @@ models:
         tests:
           - unique
           - not_null
-
+      - name: last_access_date
+        description: Last access date
