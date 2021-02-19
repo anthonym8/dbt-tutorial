@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: users
+    description: One record per user
+    columns:
+      - name: id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+
